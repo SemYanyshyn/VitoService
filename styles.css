@@ -330,6 +330,15 @@ select {
   content: "";
 }
 
+.hero-company-name {
+  align-self: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 3.1rem;
+  line-height: 1;
+  text-align: center;
+}
+
 h1,
 h2,
 h3,
@@ -348,7 +357,7 @@ h3 {
 h1 {
   margin-bottom: 22px;
   color: var(--white);
-  font-size: 4.35rem;
+  font-size: 1.55rem;
   font-weight: 940;
   text-wrap: balance;
 }
@@ -1204,7 +1213,7 @@ h3 {
   }
 
   h1 {
-    font-size: 3.5rem;
+    font-size: 1.55rem;
   }
 
   .service-card,
@@ -1307,7 +1316,7 @@ h3 {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 1.55rem;
   }
 
   h2,
@@ -1390,8 +1399,12 @@ h3 {
     white-space: normal;
   }
 
+  .hero-company-name {
+    font-size: 2.36rem;
+  }
+
   h1 {
-    font-size: 2.12rem;
+    font-size: 1.18rem;
   }
 
   .hero h1 .hero-title-accent {
@@ -1545,7 +1558,7 @@ h3 {
   }
 
   h1 {
-    font-size: 1.74rem;
+    font-size: 1.18rem;
   }
 
   .hero-actions .button {
